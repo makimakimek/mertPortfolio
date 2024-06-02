@@ -34,6 +34,7 @@ function App() {
             </div>
             <div className = "resume">
               link to my Resume - 
+              <a href = "https://www.google.com" target = "_blank" className = "link"> &#128196;</a>
             </div>
           </div>
         </div>
