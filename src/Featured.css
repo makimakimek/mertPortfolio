@@ -1,0 +1,85 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-display: block;
+    font-family: "Lab Mono";
+    src: url("https://type.cargo.site/files/LabMono-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+}
+
+.navAndProjects {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.navigationAndName {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectCollection {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+
+.projectsFull {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsRow {
+    display: flex;
+    gap: 3vw;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.image {
+    height: auto;
+    max-width: 20vw;
+}
+
+.mainTitle {
+    font-family: "Lab Mono", Icons;
+    font-weight: 400;
+    font-size: 1.8vh;
+    padding: 3vh 0vh 3vh 0vh;
+}
+
+.projectTitle {
+    font-family: "Lab Mono", Icons;
+    font-weight: 400;
+    font-size: 1.8vh;
+    padding: 1vh 0vh 0vh 0vh;
+}
+
+.name, .mood, .nodes, .nextLink, .indexLink {
+    font-family: "Lab Mono", Icons;
+    font-weight: 400;
+}
+
+.indexLink, .nextLink {
+    color: grey;
+    margin-right: 30px;
+    font-size: 1.8vh;
+}
+
+.name {
+    font-size: 3vh;
+}
