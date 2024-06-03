@@ -32,6 +32,7 @@
 .projectsFull {
     display: flex;
     flex-direction: column;
+    gap: 5vh;
 }
 
 .projectsRow {
@@ -63,23 +64,96 @@
 }
 
 .projectTitle {
-    font-family: "Lab Mono", Icons;
+    font-family: "Lab Mono";
     font-weight: 400;
     font-size: 1.8vh;
     padding: 1vh 0vh 0vh 0vh;
+    width: 100%;
+    max-width: 20vw;
+    word-wrap: break-word;
 }
 
-.name, .mood, .nodes, .nextLink, .indexLink {
-    font-family: "Lab Mono", Icons;
-    font-weight: 400;
+.name, .mood, .nodes, .nextLink, .indexLink, .menuItem {
+    font-family: "Lab Mono";
 }
 
 .indexLink, .nextLink {
     color: grey;
     margin-right: 30px;
     font-size: 1.8vh;
+    border-bottom: 1px solid grey;
 }
 
 .name {
     font-size: 3vh;
+    margin: 2vh 0vw 2vh 1vw;
+    border-bottom: dotted 2px grey;
+    padding-bottom: 2vh;
+}
+
+.mood {
+    margin: 0vh 0vw 2vh 1vw;
+    border-bottom: dotted 2px grey;
+    padding-bottom: 2vh;
+}
+
+.nodes {
+    margin: 0vh 0vw 0vh 1vw;
+}
+
+.navigationTab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem {
+    border-bottom: 1px solid grey;
+    width: 10vw;
+    color: black;
+}
+
+.menuItem:hover, .indexLink:hover, .nextLink:hover, .dropdownItem:hover {
+    transition: 0.2s;
+    background-color: #fff564;
+    color: rgb(110, 22, 110);
+}
+
+.projectContainer:hover {
+    background-color: #fff564;
+    transition: 0.2s;
+}
+
+.dropdownProjects {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 100%;
+    top: 0;
+    margin-left: 2px;
+}
+
+.dropdownItem {
+    border-bottom: 1px solid grey;
+    color: black;
+    width: 8vw;
+}
+
+.dropdownContent a {
+    display: block;
+}
+
+.dropdownProjects:hover .dropdownContent {
+    display: block;
+    transition: 0.2;
 }

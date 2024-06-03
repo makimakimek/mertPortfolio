@@ -12,9 +12,9 @@ function Featured() {
                             Mert Ayhan Tandoğdu
                         </div>
 
-                        <div className = "mood">
+                        {/*<div className = "mood">
                             mood:
-                        </div>
+                        </div>*/}
 
                         <div className = "navigationTab">
                             <div className = "nodes">
@@ -22,7 +22,36 @@ function Featured() {
                             </div>
 
                             <div className = "menu">
+                                <a href = "https://www.google.com" className = "link">
+                                    <div className = "menuItem">
+                                        index
+                                    </div>
+                                </a>
 
+                                <a href = "https://www.google.com" className = "link">
+                                    <div className = "menuItem">
+                                        <div className = "dropdownProjects">
+                                            <div className = "dropdownTitle">
+                                                projects +
+                                            </div>
+
+                                            <div className = "dropdownContent">
+                                                <a href = "https://www.google.com" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</a>
+                                                <a href = "https://www.google.com" className = "dropdownItem">Inverted Pendulum System Modelling</a>
+                                                <a href = "https://www.google.com" className = "dropdownItem">Ball Balancer System Control Modelling</a>
+                                                <a href = "https://www.google.com" className = "dropdownItem">Structural Analysis of a Bridge Cable</a>
+                                                <a href = "https://www.google.com" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</a>
+                                                <a href = "https://www.google.com" className = "dropdownItem">3D Modelling of an Air Compressor</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href = "https://www.google.com" className = "link">
+                                    <div className = "menuItem">
+                                        about me
+                                    </div>
+                                </a>
                             </div> 
                         </div>
                     </div>
@@ -40,7 +69,7 @@ function Featured() {
                                     </div>
 
                                     <div className = "projectTitle">
-                                        FloraPod
+                                        Using a Two-Arm Robot System to Write Initials
                                     </div>
                                 </div>
 
@@ -50,7 +79,7 @@ function Featured() {
                                     </div>
 
                                     <div className = "projectTitle">
-                                        FloraPod
+                                        Inverted Pendulum System Modelling
                                     </div>
                                 </div>
 
@@ -60,7 +89,7 @@ function Featured() {
                                     </div>
 
                                     <div className = "projectTitle">
-                                        FloraPod
+                                        Ball Balancer System Control Modelling
                                     </div>
                                 </div>
                             </div>
@@ -68,31 +97,31 @@ function Featured() {
                             <div className = "projectsRow">
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-
+                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
-
+                                        Structural Analysis of a Bridge Cable
                                     </div>
                                 </div>
 
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-
+                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
-
+                                        Fluid Flow Simulation Through an Expanding Pipe
                                     </div>
                                 </div>
 
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-
+                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
-
+                                        3D Modelling of an Air Compressor
                                     </div>
                                 </div>
                             </div>
