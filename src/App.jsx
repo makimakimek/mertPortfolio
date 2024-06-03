@@ -1,4 +1,5 @@
 import './App.css'
+import { Link } from "react-router-dom";
 import mertImage from './assets/mertImage.jpg'
 
 function App() {
@@ -40,8 +41,13 @@ function App() {
         </div>
 
         <div className = "goAndNoButtons">
-          <button className = "goButton">Go!</button>
-          <button className = "noButton">No.</button>
+          <Link to = "Featured">
+            <button className = "goButton">Go!</button>
+          </Link>
+
+          <Link to = "Featured">
+            <button className = "noButton">No.</button>
+          </Link>
         </div>
       </div>
     </>
