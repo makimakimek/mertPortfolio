@@ -35,7 +35,7 @@ function Featured() {
                                         </div>
 
                                         <div className = "dropdownContent">
-                                            <a href = "https://www.google.com" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</a>
+                                            <Link to = "/TwoArmRobotProject" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</Link>
                                             <a href = "https://www.google.com" className = "dropdownItem">Inverted Pendulum System Modelling</a>
                                             <a href = "https://www.google.com" className = "dropdownItem">Ball Balancer System Control Modelling</a>
                                             <a href = "https://www.google.com" className = "dropdownItem">Structural Analysis of a Bridge Cable</a>
@@ -61,10 +61,10 @@ function Featured() {
 
                         <div className = "projectsFull">
                             <div className = "projectsRow">
-                                <Link to = "/twoArmRobotProject">
+                                <Link to = "/TwoArmRobotProject">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -75,7 +75,7 @@ function Featured() {
                                 
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
@@ -85,7 +85,7 @@ function Featured() {
 
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
@@ -97,7 +97,7 @@ function Featured() {
                             <div className = "projectsRow">
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
@@ -107,7 +107,7 @@ function Featured() {
 
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
@@ -117,7 +117,7 @@ function Featured() {
 
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
-                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                     </div>
 
                                     <div className = "projectTitle">
@@ -125,7 +125,6 @@ function Featured() {
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -134,7 +133,9 @@ function Featured() {
                     <Link to = "/">
                         <div className = "indexLink">index</div>
                     </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
+                    <Link to = "/TwoArmRobotProject">
+                        <div className = "nextLink">next</div>
+                    </Link>
                 </div>
             </div>
         </>

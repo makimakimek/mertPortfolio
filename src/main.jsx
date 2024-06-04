@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx'
 import './index.css'
 import Featured from './Featured.jsx'
-import twoArmRobotProject from './twoArmRobotProject';
+import TwoArmRobotProject from './TwoArmRobotProject.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     element: <Featured />,
   },
   {
-    path: "twoArmRobotProject",
-    element: <twoArmRobotProject />,
+    path: "TwoArmRobotProject",
+    element: <TwoArmRobotProject />,
   },
 ]);
 

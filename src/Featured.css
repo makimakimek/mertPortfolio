@@ -1,5 +1,6 @@
 #root {
     background-color: white;
+    width: 100vw;
 }
 
 .page {
@@ -18,7 +19,7 @@
 
 .navAndProjects {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -56,7 +57,7 @@
     justify-content: flex-end;
 }
 
-.image {
+.subImage {
     height: auto;
     max-width: 20vw;
 }
