@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx'
 import './index.css'
-import Featured from './Featured'
+import Featured from './Featured.jsx'
+import twoArmRobotProject from './twoArmRobotProject';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "Featured",
     element: <Featured />,
+  },
+  {
+    path: "twoArmRobotProject",
+    element: <twoArmRobotProject />,
   },
 ]);
 

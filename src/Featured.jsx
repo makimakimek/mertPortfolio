@@ -22,31 +22,29 @@ function Featured() {
                             </div>
 
                             <div className = "menu">
-                                <a href = "https://www.google.com" className = "link">
+                                <Link to = "/">
                                     <div className = "menuItem">
                                         index
                                     </div>
-                                </a>
+                                </Link>
+                                
+                                <div className = "menuItem">
+                                    <div className = "dropdownProjects">
+                                        <div className = "dropdownTitle">
+                                            projects +
+                                        </div>
 
-                                <a href = "https://www.google.com" className = "link">
-                                    <div className = "menuItem">
-                                        <div className = "dropdownProjects">
-                                            <div className = "dropdownTitle">
-                                                projects +
-                                            </div>
-
-                                            <div className = "dropdownContent">
-                                                <a href = "https://www.google.com" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</a>
-                                                <a href = "https://www.google.com" className = "dropdownItem">Inverted Pendulum System Modelling</a>
-                                                <a href = "https://www.google.com" className = "dropdownItem">Ball Balancer System Control Modelling</a>
-                                                <a href = "https://www.google.com" className = "dropdownItem">Structural Analysis of a Bridge Cable</a>
-                                                <a href = "https://www.google.com" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</a>
-                                                <a href = "https://www.google.com" className = "dropdownItem">3D Modelling of an Air Compressor</a>
-                                            </div>
+                                        <div className = "dropdownContent">
+                                            <a href = "https://www.google.com" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</a>
+                                            <a href = "https://www.google.com" className = "dropdownItem">Inverted Pendulum System Modelling</a>
+                                            <a href = "https://www.google.com" className = "dropdownItem">Ball Balancer System Control Modelling</a>
+                                            <a href = "https://www.google.com" className = "dropdownItem">Structural Analysis of a Bridge Cable</a>
+                                            <a href = "https://www.google.com" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</a>
+                                            <a href = "https://www.google.com" className = "dropdownItem">3D Modelling of an Air Compressor</a>
                                         </div>
                                     </div>
-                                </a>
-
+                                </div>
+                                
                                 <a href = "https://www.google.com" className = "link">
                                     <div className = "menuItem">
                                         about me
@@ -63,16 +61,18 @@ function Featured() {
 
                         <div className = "projectsFull">
                             <div className = "projectsRow">
-                                <div className = "projectContainer">
-                                    <div className = "projectImage">
-                                        <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
-                                    </div>
+                                <Link to = "/twoArmRobotProject">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
+                                        </div>
 
-                                    <div className = "projectTitle">
-                                        Using a Two-Arm Robot System to Write Initials
+                                        <div className = "projectTitle">
+                                            Using a Two-Arm Robot System to Write Initials
+                                        </div>
                                     </div>
-                                </div>
-
+                                </Link>
+                                
                                 <div className = "projectContainer">
                                     <div className = "projectImage">
                                         <img src = {projectImage} className = "image" alt = "an image of FloraPod project"/>
@@ -131,7 +131,9 @@ function Featured() {
                 </div>
 
                 <div className = "linkContainer">
-                    <a href = "https://www.google.com" className = "indexLink">index</a>
+                    <Link to = "/">
+                        <div className = "indexLink">index</div>
+                    </Link>
                     <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
