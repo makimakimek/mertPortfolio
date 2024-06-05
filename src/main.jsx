@@ -5,6 +5,11 @@ import App from './App.jsx'
 import './index.css'
 import Featured from './Featured.jsx'
 import TwoArmRobotProject from './TwoArmRobotProject.jsx';
+import AirCompressorModelling from './AirCompressorModelling.jsx';
+import BallBalancer from './BallBalancer.jsx';
+import BridgeCable from './BridgeCable.jsx';
+import FluidFlowSimulation from './FluidFlowSimulation.jsx';
+import InvertedPendulum from './InvertedPendulum.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +23,26 @@ const router = createBrowserRouter([
   {
     path: "TwoArmRobotProject",
     element: <TwoArmRobotProject />,
+  },
+  {
+    path: "AirCompressorModelling",
+    element: <AirCompressorModelling />,
+  },
+  {
+    path: "BallBalancer",
+    element: <BallBalancer />,
+  },
+  {
+    path: "BridgeCable",
+    element: <BridgeCable />,
+  },
+  {
+    path: "FluidFlowSimulation",
+    element: <FluidFlowSimulation />,
+  },
+  {
+    path: "InvertedPendulum",
+    element: <InvertedPendulum />,
   },
 ]);
 
