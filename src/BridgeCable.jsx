@@ -1,10 +1,150 @@
 import './Featured.css'
 import { Link } from "react-router-dom";
+import mainProjectPhoto from './assets/placeholderProjectImage.jpg';
 
 function BridgeCable() {
     return (
         <>
-        
+            <div className = "page">
+                <div className = "navAndProjects">
+                    <div className = "navigationAndName">
+                        <div className = "name">
+                            Mert Ayhan Tandoğdu
+                        </div>
+
+                        {/*<div className = "mood">
+                            mood:
+                        </div>*/}
+
+                        <div className = "navigationTab">
+                            <div className = "nodes">
+                                NODES
+                            </div>
+
+                            <div className = "menu">
+                                <Link to = "/Featured">
+                                    <div className = "menuItem">
+                                        index
+                                    </div>
+                                </Link>
+                                
+                                <div className = "menuItem">
+                                    <div className = "dropdownProjects">
+                                        <div className = "dropdownTitle">
+                                            projects +
+                                        </div>
+
+                                        <div className = "dropdownContent">
+                                            <Link to = "/TwoArmRobotProject" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</Link>
+                                            <Link to = "/InvertedPendulum" className = "dropdownItem">Inverted Pendulum System Modelling</Link>
+                                            <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
+                                            <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
+                                            <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
+                                            <Link to = "/AirCompressorModeling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <a href = "https://www.google.com" className = "link">
+                                    <div className = "menuItem">
+                                        about me
+                                    </div>
+                                </a>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div className = "projectCollection">
+                        <div className = "mainTitle">
+                            STRUCTURAL ANALYSIS OF A BRIDGE CABLE
+                        </div>
+
+                        <div className = "mainPhoto">
+                            <img src = {mainProjectPhoto} className = "mainPhoto" alt = "an image of two arm robot project"/>
+                        </div>
+
+                        <div className = "infoAndParagraph">
+                            <div className = "info">
+                                <div className = "contribution">
+                                    <div className = "infoTitle">
+                                        Contribution
+                                    </div>
+
+                                    <div className = "infoFullText">
+                                        <div className = "infoSubText">
+                                            MATLAB code
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            design
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className = "collaborator">
+                                    <div className = "infoTitle">
+                                        Collaborator
+                                    </div>
+
+                                    <div className = "infoFullText">
+                                        <div className = "infoSubText">
+                                            Mehmet
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            Elif
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className = "supervisor">
+                                    <div className = "infoTitle">
+                                        Supervisor
+                                    </div>
+
+                                    <div className = "infoFullText">
+                                        <div className = "infoSubText">
+                                            Prof. Ismail Lazoğlu
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className = "projectParagraph">
+                                Designed a non-conventional bridge cable that will be connected to the bracket from both sides through a fork terminal. 
+                                Observed the effect of bolt pre-adjustment without any external forces applied to the bracket. 
+                                Removed the bolt pretension from the bolts and applied the external force of 10 kN to the bracket.
+                                Contact status of the plates and bracket was observed when there is an external force applied to the pin and computed the working loads for the bolts.
+                            </div>  
+                        </div>
+
+                        <div className = "moreImages">
+                            <div className = "projectText">
+
+                            </div>
+
+                            <div className = "projectImage">
+
+                            </div>
+
+                            <div className = "projectImage">
+
+                            </div>
+
+                            <div className = "projectText">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className = "linkContainer">
+                    <Link to = "/Featured">
+                        <div className = "indexLink">index</div>
+                    </Link>
+                    <a href = "https://www.google.com" className = "nextLink">next</a>
+                </div>
+            </div>
         </>
     )
 }

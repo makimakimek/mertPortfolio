@@ -36,11 +36,11 @@ function Featured() {
 
                                         <div className = "dropdownContent">
                                             <Link to = "/TwoArmRobotProject" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</Link>
-                                            <a href = "https://www.google.com" className = "dropdownItem">Inverted Pendulum System Modelling</a>
-                                            <a href = "https://www.google.com" className = "dropdownItem">Ball Balancer System Control Modelling</a>
-                                            <a href = "https://www.google.com" className = "dropdownItem">Structural Analysis of a Bridge Cable</a>
-                                            <a href = "https://www.google.com" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</a>
-                                            <a href = "https://www.google.com" className = "dropdownItem">3D Modelling of an Air Compressor</a>
+                                            <Link to = "/InvertedPendulum" className = "dropdownItem">Inverted Pendulum System Modelling</Link>
+                                            <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
+                                            <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
+                                            <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
+                                            <Link to = "/AirCompressorModeling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -73,57 +73,67 @@ function Featured() {
                                     </div>
                                 </Link>
                                 
-                                <div className = "projectContainer">
-                                    <div className = "projectImage">
-                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
-                                    </div>
+                                <Link to = "/InvertedPendulum">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        </div>
 
-                                    <div className = "projectTitle">
-                                        Inverted Pendulum System Modelling
+                                        <div className = "projectTitle">
+                                            Inverted Pendulum System Modelling
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className = "projectContainer">
-                                    <div className = "projectImage">
-                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
-                                    </div>
+                                <Link to = "/BallBalancer">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        </div>
 
-                                    <div className = "projectTitle">
-                                        Ball Balancer System Control Modelling
+                                        <div className = "projectTitle">
+                                            Ball Balancer System Control Modelling
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
 
                             <div className = "projectsRow">
-                                <div className = "projectContainer">
-                                    <div className = "projectImage">
-                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
-                                    </div>
+                                <Link to = "/BridgeCable">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        </div>
 
-                                    <div className = "projectTitle">
-                                        Structural Analysis of a Bridge Cable
+                                        <div className = "projectTitle">
+                                            Structural Analysis of a Bridge Cable
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className = "projectContainer">
-                                    <div className = "projectImage">
-                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
-                                    </div>
+                                <Link to = "/FluidFlowSimulation">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        </div>
 
-                                    <div className = "projectTitle">
-                                        Fluid Flow Simulation Through an Expanding Pipe
+                                        <div className = "projectTitle">
+                                            Fluid Flow Simulation Through an Expanding Pipe
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
+                                
+                                <Link to = "AirCompressorModelling">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        </div>
 
-                                <div className = "projectContainer">
-                                    <div className = "projectImage">
-                                        <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        <div className = "projectTitle">
+                                            3D Modelling of an Air Compressor
+                                        </div>
                                     </div>
-
-                                    <div className = "projectTitle">
-                                        3D Modelling of an Air Compressor
-                                    </div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
