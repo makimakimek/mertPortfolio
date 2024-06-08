@@ -40,7 +40,8 @@ function AirCompressorModelling() {
                                             <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
                                             <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
                                             <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
-                                            <Link to = "/AirCompressorModeling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/AirCompressorModelling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/FloraPod" className = "dropdownItem">Climate Controlled Portable Greenhouse System</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -72,12 +73,9 @@ function AirCompressorModelling() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            MATLAB code
+                                            MATLAB
                                         </div>
 
-                                        <div className = "infoSubText">
-                                            design
-                                        </div>
                                     </div>
                                 </div>
 
@@ -88,11 +86,19 @@ function AirCompressorModelling() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Mehmet
+                                            Ahmet Mete Coşkun
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Elif
+                                            Emir Kaan Sonay
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            Erkin Püren
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            Hikmet Batuhan Balkı
                                         </div>
                                     </div>
                                 </div>
@@ -111,8 +117,8 @@ function AirCompressorModelling() {
                             </div>
                             
                             <div className = "projectParagraph">
-                                Controlled the input arm's angular position and speed with time, and solved the angular positions
-                                and speeds of the driven arms.
+                                By using Siemens NX I re-created the components of an air compressor to later assemble and then to simulate the
+                                motion.
                             </div>  
                         </div>
 

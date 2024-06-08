@@ -40,7 +40,8 @@ function BallBalancer() {
                                             <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
                                             <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
                                             <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
-                                            <Link to = "/AirCompressorModeling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/AirCompressorModelling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/FloraPod" className = "dropdownItem">Climate Controlled Portable Greenhouse System</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -111,8 +112,12 @@ function BallBalancer() {
                             </div>
                             
                             <div className = "projectParagraph">
-                                Controlled the input arm's angular position and speed with time, and solved the angular positions
-                                and speeds of the driven arms.
+                                Obtained the transfer function between the input current and the output position of the ball.
+                                The position of the ball is measured using an ultrasonic sensor and fed back to the system via a unity feedback loop
+                                to control the ball position using a PD controller. Using the root-locus approach, find the range of gain values that
+                                makes the system stable. Developed a Simulink model to simulate the system’s response to a disturbance signal, which 
+                                disturbs the angle of the beam. Designed a PD controller that satisfies the constraint of settling time being bigger 
+                                than 4 seconds.
                             </div>  
                         </div>
 

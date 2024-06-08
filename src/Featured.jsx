@@ -40,7 +40,8 @@ function Featured() {
                                             <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
                                             <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
                                             <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
-                                            <Link to = "/AirCompressorModeling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/AirCompressorModelling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/FloraPod" className = "dropdownItem">Climate Controlled Portable Greenhouse System</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +124,7 @@ function Featured() {
                                     </div>
                                 </Link>
                                 
-                                <Link to = "AirCompressorModelling">
+                                <Link to = "/AirCompressorModelling">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
                                             <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
@@ -131,6 +132,20 @@ function Featured() {
 
                                         <div className = "projectTitle">
                                             3D Modelling of an Air Compressor
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+
+                            <div className = "projectsRow">
+                                <Link to = "/FloraPod">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                        </div>
+
+                                        <div className = "projectTitle">
+                                            Climate Controlled Portable Greenhouse System
                                         </div>
                                     </div>
                                 </Link>

@@ -2,7 +2,7 @@ import './Featured.css'
 import { Link } from "react-router-dom";
 import mainProjectPhoto from './assets/placeholderProjectImage.jpg';
 
-function BridgeCable() {
+function FloraPod() {
     return (
         <>
             <div className = "page">
@@ -57,7 +57,7 @@ function BridgeCable() {
 
                     <div className = "projectCollection">
                         <div className = "mainTitle">
-                            STRUCTURAL ANALYSIS OF A BRIDGE CABLE
+                            Climate Controlled Portable Greenhouse System
                         </div>
 
                         <div className = "mainPhoto">
@@ -73,12 +73,9 @@ function BridgeCable() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            MATLAB code
+                                            MATLAB
                                         </div>
 
-                                        <div className = "infoSubText">
-                                            design
-                                        </div>
                                     </div>
                                 </div>
 
@@ -89,11 +86,19 @@ function BridgeCable() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Mehmet
+                                            Ahmet Mete Coşkun
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Elif
+                                            Emir Kaan Sonay
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            Erkin Püren
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            Hikmet Batuhan Balkı
                                         </div>
                                     </div>
                                 </div>
@@ -112,10 +117,9 @@ function BridgeCable() {
                             </div>
                             
                             <div className = "projectParagraph">
-                                Designed a non-conventional bridge cable that will be connected to the bracket from both sides through a fork terminal. 
-                                Observed the effect of bolt pre-adjustment without any external forces applied to the bracket. 
-                                Removed the bolt pretension from the bolts and applied the external force of 10 kN to the bracket.
-                                Contact status of the plates and bracket was observed when there is an external force applied to the pin and computed the working loads for the bolts.
+                                ”FloraPod” measures and adjusts the humidity, temperature, and pH values of a closed system to achieve optimal
+                                plant growth designed for urban consumption. Coded the control system on Arduino IDE and installed the LCD, 
+                                ultrasonic piezo sensor, DHT-11, analog pH sensor, and soldered the circuits.
                             </div>  
                         </div>
 
@@ -150,4 +154,4 @@ function BridgeCable() {
     )
 }
 
-export default BridgeCable
+export default FloraPod

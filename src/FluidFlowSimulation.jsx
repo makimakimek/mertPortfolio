@@ -40,7 +40,8 @@ function FluidFlowSimulation() {
                                             <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
                                             <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
                                             <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
-                                            <Link to = "/AirCompressorModeling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/AirCompressorModelling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
+                                            <Link to = "/FloraPod" className = "dropdownItem">Climate Controlled Portable Greenhouse System</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -111,8 +112,7 @@ function FluidFlowSimulation() {
                             </div>
                             
                             <div className = "projectParagraph">
-                                Controlled the input arm's angular position and speed with time, and solved the angular positions
-                                and speeds of the driven arms.
+                                By using ANSYS Fluent, I ran a computational fluid dynamics simulation on a variety of expanding pipes.
                             </div>  
                         </div>
 

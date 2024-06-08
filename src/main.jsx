@@ -10,6 +10,7 @@ import BallBalancer from './BallBalancer.jsx';
 import BridgeCable from './BridgeCable.jsx';
 import FluidFlowSimulation from './FluidFlowSimulation.jsx';
 import InvertedPendulum from './InvertedPendulum.jsx';
+import FloraPod from './FloraPod.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "InvertedPendulum",
     element: <InvertedPendulum />,
+  },
+  {
+    path: "FloraPod",
+    element: <FloraPod />,
   },
 ]);
 

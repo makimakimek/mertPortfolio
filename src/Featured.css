@@ -80,7 +80,13 @@
 }
 
 .name, .mood, .nodes, .nextLink, .indexLink, .menuItem {
+    color: black;
     font-family: "Lab Mono";
+}
+
+.info {
+    width: 100%;
+    max-width: 15vw;
 }
 
 .indexLink, .nextLink {
