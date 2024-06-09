@@ -1,6 +1,8 @@
-import './Featured.css'
+import './TwoArmRobotProject.css';
+import './Featured.css';
 import { Link } from "react-router-dom";
-import mainProjectPhoto from './assets/placeholderProjectImage.jpg';
+import ballBalancerImage from './assets/ballBalancer.jpg';
+import stabilityRootLocusImage from './assets/stabilityRootLocus.jpg';
 
 function BallBalancer() {
     return (
@@ -61,7 +63,9 @@ function BallBalancer() {
                         </div>
 
                         <div className = "mainPhoto">
-                            <img src = {mainProjectPhoto} className = "mainPhoto" alt = "an image of two arm robot project"/>
+                            <img src = {ballBalancerImage} className = "singularPhoto" alt = "an image of the ball balancer through matlab"/>
+
+                            <img src = {stabilityRootLocusImage} className = "singularPhoto" alt = "an image of the root locus graph"/>
                         </div>
 
                         <div className = "infoAndParagraph">
@@ -77,7 +81,7 @@ function BallBalancer() {
                                         </div>
 
                                         <div className = "infoSubText">
-                                            design
+                                            project report
                                         </div>
                                     </div>
                                 </div>
@@ -89,11 +93,11 @@ function BallBalancer() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Mehmet
+                                            Burak Barış
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Elif
+                                            Utku Berkay Gençaslan
                                         </div>
                                     </div>
                                 </div>
@@ -105,19 +109,37 @@ function BallBalancer() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Prof. Ismail Lazoğlu
+                                            Prof. Çağatay Başdoğan
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             
                             <div className = "projectParagraph">
-                                Obtained the transfer function between the input current and the output position of the ball.
+                                {/*Obtained the transfer function between the input current and the output position of the ball.
                                 The position of the ball is measured using an ultrasonic sensor and fed back to the system via a unity feedback loop
                                 to control the ball position using a PD controller. Using the root-locus approach, find the range of gain values that
                                 makes the system stable. Developed a Simulink model to simulate the system’s response to a disturbance signal, which 
                                 disturbs the angle of the beam. Designed a PD controller that satisfies the constraint of settling time being bigger 
-                                than 4 seconds.
+                                than 4 seconds.*/}
+                                The purpose of this project is to present the analysis and design of a control
+                                system for a beam and ball system. The system's response to a disturbance signal,
+                                which affects the angle of the beam (θ), is simulated using a Simulink model. A PD
+                                controller is designed to meet the specified constraint of a settling time of fewer than 4
+                                seconds with the root-locus approach that is utilized with the "Control System
+                                Designer" toolbox. In addition to simulating the system's response, the report focuses
+                                on visualizing the movements of the ball on the beam. The outputs of the Simulink
+                                model, namely the beam's angular position (θ(t)) and the ball's position (x(t)), are
+                                stored and animated in MatLab. The length of the beam (L) is assumed to be 60 cm,
+                                and the radius of the ball (r) is assumed to be 5 cm. The "drawBallnBeam.m" function
+                                is provided to draw the circle representing the ball and the beam in MatLab.
+                                Furthermore, the effect of controller gains (K p , K d ) on the system's performance is
+                                investigated. Different sets of gains are selected to analyse three distinct conditions:
+                                marginally stable, underdamped, and overdamped. The corresponding graphs are
+                                plotted to illustrate the angular position of the beam and the position of the ball.
+                                Additionally, the closed-loop pole-zero maps are plotted, and their effects on the
+                                system's response are analysed. It is ensured that the controllers for these conditions
+                                successfully reject the disturbance.
                             </div>  
                         </div>
 

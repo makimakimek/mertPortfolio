@@ -84,11 +84,6 @@
     font-family: "Lab Mono";
 }
 
-.info {
-    width: 100%;
-    max-width: 15vw;
-}
-
 .indexLink, .nextLink {
     color: grey;
     margin-right: 30px;

@@ -17,14 +17,20 @@
 }
 
 .mainPhoto {
+    display: flex;
+    gap: 4vw;
+}
+
+.singularPhoto {
     height: auto;
-    max-width: 66vw;
+    max-width: 31vw;
+    width: 100%;
 }
 
 .infoAndParagraph {
     display: flex;
     margin-top: 3vh;
-    gap: 15vw;
+    gap: 12vw;
     max-width: 66vw;
 }
 
@@ -32,6 +38,8 @@
     display: flex;
     flex-direction: column;
     gap: 3vh;
+    width: 100%;
+    max-width: 15vw;
 }
 
 .infoTitle {
@@ -50,6 +58,7 @@
     font-family: "Lab Mono";
     font-size: 2vh;
     word-wrap: break-word;
+    width: 100%;
 }
 
 .indexLink, .nextLink {

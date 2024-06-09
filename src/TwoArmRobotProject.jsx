@@ -1,5 +1,5 @@
-import './TwoArmRobotProject.css'
-import './Featured.css'
+import './TwoArmRobotProject.css';
+import './Featured.css';
 import { Link } from "react-router-dom";
 import mainProjectPhoto from './assets/placeholderProjectImage.jpg';
 
@@ -62,7 +62,7 @@ function TwoArmRobotProject() {
                         </div>
 
                         <div className = "mainPhoto">
-                            <img src = {mainProjectPhoto} className = "mainPhoto" alt = "an image of two arm robot project"/>
+                            <img src = {mainProjectPhoto} className = "singularPhoto" alt = "an image of two arm robot project"/>
                         </div>
 
                         <div className = "infoAndParagraph">
