@@ -1,8 +1,15 @@
 import './TwoArmRobotProject.css';
 import './Featured.css';
 import { Link } from "react-router-dom";
-import ballBalancerImage from './assets/ballBalancer.jpg';
-import stabilityRootLocusImage from './assets/stabilityRootLocus.jpg';
+import ballBalancerImage from './assets/ballBalancer/ballBalancer.jpg';
+import stabilityRootLocusImage from './assets/ballBalancer/stabilityRootLocus.jpg';
+import video1 from './assets/ballBalancer/video1.mp4';
+import video2 from './assets/ballBalancer/video2.mp4';
+import video3 from './assets/ballBalancer/video3.mp4';
+import video4 from './assets/ballBalancer/video4.mp4';
+import video5 from './assets/ballBalancer/video5.mp4';
+import video6 from './assets/ballBalancer/video6.mp4';
+import video7 from './assets/ballBalancer/video7.mp4';
 
 function BallBalancer() {
     return (
@@ -143,20 +150,101 @@ function BallBalancer() {
                             </div>  
                         </div>
 
-                        <div className = "moreImages">
-                            <div className = "projectText">
-
+                        <div className = "projectVideos">
+                            <div className = "videosMainTitle">
+                                PROJECT VIDEOS
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "videoRow">
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video2} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
 
+                                    <div className = "videoTitle">
+                                        CODE VIDEO PART 1
+                                    </div>
+                                </div>
+
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video1} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div className = "videoTitle">
+                                        CODE VIDEO PART 2
+                                    </div>
+                                </div>
+
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video3} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div className = "videoTitle">
+                                        CODE VIDEO PART 3
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className = "videoRow">
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video6} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div className = "videoTitle">
+                                        CODE VIDEO PART 4
+                                    </div>
+                                </div>
+
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video4} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div className = "videoTitle">
+                                        MARGINALLY STABLE SYSTEM
+                                    </div>
+                                </div>
+
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video5} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div className = "videoTitle">
+                                        OVERDAMPED SYSTEM
+                                    </div>
+                                </div>
+                            </div>    
+
+                            <div className = "videoRow">
+                                <div className = "singleVideo">
+                                    <video width = "350" height = "150" controls>
+                                        <source src = {video7} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div className = "videoTitle">
+                                        UNDERDAMPED SYSTEM
+                                    </div>
+                                </div>    
+                            </div>                        
+                        </div>
+
+                        <div className = "projectReportSection">
+                            <div className = "projectReportTitle">
+                                PROJECT REPORT
                             </div>
 
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectText">
+                            <div className = "projectReport">
                                 
                             </div>
                         </div>

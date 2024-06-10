@@ -70,3 +70,32 @@
     flex-direction: column;
     gap: 5vh;
 }
+
+.projectVideos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.videoRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleVideo {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.videoTitle, .videosMainTitle, .projectReportTitle {
+    font-family: "Lab Mono";
+}
+
+.videosMainTitle, .projectReportTitle {
+    font-size: 2vh;
+}
