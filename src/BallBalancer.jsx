@@ -10,6 +10,9 @@ import video4 from './assets/ballBalancer/video4.mp4';
 import video5 from './assets/ballBalancer/video5.mp4';
 import video6 from './assets/ballBalancer/video6.mp4';
 import video7 from './assets/ballBalancer/video7.mp4';
+import marginallyStable from './assets/ballBalancer/marginallyStable.gif';
+import overdamped from './assets/ballBalancer/overdamped.gif';
+import underdamped from './assets/ballBalancer/underdamped.gif';
 
 function BallBalancer() {
     return (
@@ -70,9 +73,11 @@ function BallBalancer() {
                         </div>
 
                         <div className = "mainPhoto">
-                            <img src = {ballBalancerImage} className = "singularPhoto" alt = "an image of the ball balancer through matlab"/>
+                            <img src = {marginallyStable} className = "singularPhoto" alt = "a gif of the ball balancer in a marginally stable system"/>
 
-                            <img src = {stabilityRootLocusImage} className = "singularPhoto" alt = "an image of the root locus graph"/>
+                            <img src = {overdamped} className = "singularPhoto" alt = "a gif of the ball balancer in an overdamped system"/>
+
+                            <img src = {underdamped} className = "singularPhoto" alt = "a gif of the ball balancer in an underdamped system"/>
                         </div>
 
                         <div className = "infoAndParagraph">
@@ -157,7 +162,7 @@ function BallBalancer() {
 
                             <div className = "videoRow">
                                 <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
+                                    <video width = "600" height = "300" controls>
                                         <source src = {video2} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
@@ -168,8 +173,8 @@ function BallBalancer() {
                                 </div>
 
                                 <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
-                                        <source src = {video1} type = "video/mp4" />
+                                    <video width = "600" height = "300" controls>
+                                        <source src = {video3} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
 
@@ -177,10 +182,12 @@ function BallBalancer() {
                                         CODE VIDEO PART 2
                                     </div>
                                 </div>
-
+                            </div>
+                            
+                            <div className = "videoRow">
                                 <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
-                                        <source src = {video3} type = "video/mp4" />
+                                    <video width = "600" height = "300" controls>
+                                        <source src = {video1} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
 
@@ -188,11 +195,9 @@ function BallBalancer() {
                                         CODE VIDEO PART 3
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div className = "videoRow">
+
                                 <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
+                                    <video width = "600" height = "300" controls>
                                         <source src = {video6} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
@@ -201,42 +206,7 @@ function BallBalancer() {
                                         CODE VIDEO PART 4
                                     </div>
                                 </div>
-
-                                <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
-                                        <source src = {video4} type = "video/mp4" />
-                                        Your browser does not support the video tag.
-                                    </video>
-
-                                    <div className = "videoTitle">
-                                        MARGINALLY STABLE SYSTEM
-                                    </div>
-                                </div>
-
-                                <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
-                                        <source src = {video5} type = "video/mp4" />
-                                        Your browser does not support the video tag.
-                                    </video>
-
-                                    <div className = "videoTitle">
-                                        OVERDAMPED SYSTEM
-                                    </div>
-                                </div>
-                            </div>    
-
-                            <div className = "videoRow">
-                                <div className = "singleVideo">
-                                    <video width = "350" height = "150" controls>
-                                        <source src = {video7} type = "video/mp4" />
-                                        Your browser does not support the video tag.
-                                    </video>
-
-                                    <div className = "videoTitle">
-                                        UNDERDAMPED SYSTEM
-                                    </div>
-                                </div>    
-                            </div>                        
+                            </div>                         
                         </div>
 
                         <div className = "projectReportSection">
