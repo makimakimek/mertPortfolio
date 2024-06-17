@@ -121,7 +121,7 @@ function BallBalancer() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Prof. Çağatay Başdoğan
+                                            Prof. Dr. Çağatay Başdoğan
                                         </div>
                                     </div>
                                 </div>
@@ -162,7 +162,7 @@ function BallBalancer() {
 
                             <div className = "videoRow">
                                 <div className = "singleVideo">
-                                    <video width = "600" height = "300" controls>
+                                    <video controls>
                                         <source src = {video2} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
@@ -173,7 +173,7 @@ function BallBalancer() {
                                 </div>
 
                                 <div className = "singleVideo">
-                                    <video width = "600" height = "300" controls>
+                                    <video controls>
                                         <source src = {video3} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
@@ -186,7 +186,7 @@ function BallBalancer() {
                             
                             <div className = "videoRow">
                                 <div className = "singleVideo">
-                                    <video width = "600" height = "300" controls>
+                                    <video controls>
                                         <source src = {video1} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
@@ -197,7 +197,7 @@ function BallBalancer() {
                                 </div>
 
                                 <div className = "singleVideo">
-                                    <video width = "600" height = "300" controls>
+                                    <video controls>
                                         <source src = {video6} type = "video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
