@@ -26,11 +26,13 @@
 .navigationAndName {
     display: flex;
     flex-direction: column;
+    width: 20%;
 }
 
 .projectCollection {
     display: flex;
     flex-direction: column;
+    width: 65%;
     margin-right: 2vw;
 }
 
