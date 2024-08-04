@@ -2,6 +2,16 @@ import './Featured.css';
 import './TwoArmRobotProject.css';
 import { Link } from "react-router-dom";
 import video1 from './assets/airCompressor/FinalAssemblySequence.mp4';
+import photo1Drawing from './assets/airCompressor/B.jpeg';
+import photo1Real from './assets/airCompressor/B.png';
+import photo2Drawing from './assets/airCompressor/C.jpeg';
+import photo2Real from './assets/airCompressor/C.png';
+import photo3Drawing from './assets/airCompressor/D.jpeg';
+import photo3Real from './assets/airCompressor/D.png';
+import photo4Drawing from './assets/airCompressor/E.jpeg';
+import photo4Real from './assets/airCompressor/E.png';
+import photo5Drawing from './assets/airCompressor/F.jpeg';
+import photo5Real from './assets/airCompressor/F.png';
 
 function AirCompressorModelling() {
     return (
@@ -142,20 +152,34 @@ function AirCompressorModelling() {
                         </div>
 
                         <div className = "moreImages">
-                            <div className = "projectText">
+                            <div className = "moreImagesRow">
+                                <img src = {photo1Real} className = "projectImage" alt = "drawing"/>
 
+                                <img src = {photo1Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "moreImagesRow">
+                                <img src = {photo2Real} className = "projectImage" alt = "drawing"/>
 
+                                <img src = {photo2Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "moreImagesRow">
+                                <img src = {photo3Real} className = "projectImage" alt = "drawing"/>
 
+                                <img src = {photo3Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
 
-                            <div className = "projectText">
-                                
+                            <div className = "moreImagesRow">
+                                <img src = {photo4Real} className = "projectImage" alt = "drawing"/>
+
+                                <img src = {photo4Drawing} className = "projectImage" alt = "drawing"/>
+                            </div>
+
+                            <div className = "moreImagesRow">
+                                <img src = {photo5Real} className = "projectImage" alt = "drawing"/>
+
+                                <img src = {photo5Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
                         </div>
                     </div>
