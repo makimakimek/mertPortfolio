@@ -78,17 +78,12 @@
     margin-bottom: 50px;
 }
 
-.videoRow {
-    display: flex;
-    justify-content: space-between;
-}
-
 .singleVideo {
     display: flex;
     flex-direction: column;
-    width: 33vw;
+    justify-content: space-evenly;
+    width: 70vw;
     height: auto;
-    gap: 1vh;
 }
 
 .videoTitle, .videosMainTitle, .projectReportTitle {

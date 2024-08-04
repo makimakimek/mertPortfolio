@@ -1,7 +1,7 @@
 import './Featured.css';
 import './TwoArmRobotProject.css';
 import { Link } from "react-router-dom";
-import mainProjectPhoto from './assets/placeholderProjectImage.jpg';
+import video1 from './assets/airCompressor/FinalAssemblySequence.mp4';
 
 function AirCompressorModelling() {
     return (
@@ -68,7 +68,12 @@ function AirCompressorModelling() {
                         </div>
 
                         <div className = "mainPhoto">
-                            <img src = {mainProjectPhoto} className = "singularPhoto" alt = "an image of two arm robot project"/>
+                            <div className = "singleVideo">
+                                <video controls>
+                                    <source src = {video1} type = "video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
 
                         <div className = "infoAndParagraph">
