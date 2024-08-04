@@ -13,19 +13,13 @@ function App() {
         <div className = "paragraphAndImage">
           <div className = "fullParagraph">
             <div className = "paragraph">
-            I am a 3rd year PhD at the Machine Agency in HCDE, University of Washington.
+            I have a Bachelor of Science degree in Mechanical Engineering from Koç University.
             </div>
             <div className = "paragraph">
-            My work involves building systems that facilitate embodied knowledge sharing among domain experts and HCI researchers.
+            Inside you can find all the documentation of my projects I have collaborated on throughout the years.
             </div>
             <div className = "paragraph">
-            I focus on the intersection of materials processes and bio-inspired design.
-            </div>
-            <div className = "paragraph">
-            I occasionally document fun things I create and I sporadically arrange snippets of everyday life into video stories.
-            </div>
-            <div className = "paragraph">
-            Let’s play.
+            Here is my Portfolio.
             </div>
           </div>
 
@@ -43,10 +37,6 @@ function App() {
         <div className = "goAndNoButtons">
           <Link to = "Featured">
             <button className = "goButton">Go!</button>
-          </Link>
-
-          <Link to = "Featured">
-            <button className = "noButton">No.</button>
           </Link>
         </div>
       </div>

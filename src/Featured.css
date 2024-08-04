@@ -32,7 +32,7 @@
 .projectCollection {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 70%;
     margin-right: 2vw;
 }
 
@@ -151,12 +151,14 @@
     left: 100%;
     top: 0;
     margin-left: 2px;
+    background-color: whitesmoke;
 }
 
 .dropdownItem {
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     color: black;
     width: 10vw;
+    padding: 5px;
 }
 
 .dropdownContent a {
