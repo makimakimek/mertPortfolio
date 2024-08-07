@@ -110,7 +110,7 @@ function AirCompressorModelling() {
 
                                 <div className = "collaborator">
                                     <div className = "infoTitle">
-                                        Collaborator
+                                        Collaborator(s)
                                     </div>
 
                                     <div className = "infoFullText">
@@ -130,7 +130,7 @@ function AirCompressorModelling() {
 
                                 <div className = "supervisor">
                                     <div className = "infoTitle">
-                                        Supervisor
+                                        Supervisor(s)
                                     </div>
 
                                     <div className = "infoFullText">
