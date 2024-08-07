@@ -12,6 +12,10 @@ import photo4Drawing from './assets/airCompressor/E.jpeg';
 import photo4Real from './assets/airCompressor/E.png';
 import photo5Drawing from './assets/airCompressor/F.jpeg';
 import photo5Real from './assets/airCompressor/F.png';
+import photo6 from './assets/airCompressor/A.png';
+import photo7 from './assets/airCompressor/A2.png';
+import photo8 from './assets/airCompressor/AB.png';
+import photo9 from './assets/airCompressor/AB2.png';
 
 function AirCompressorModelling() {
     return (
@@ -153,12 +157,20 @@ function AirCompressorModelling() {
 
                         <div className = "moreImages">
                             <div className = "moreImagesRow">
-                                <img src = {photo1Real} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo6} className = "projectImage" alt = "drawing"/>
 
-                                <img src = {photo1Drawing} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo7} className = "projectImage" alt = "drawing"/>
+
+                                <img src = {photo8} className = "projectImage" alt = "drawing"/>
+
+                                <img src = {photo9} className = "projectImage" alt = "drawing"/>
                             </div>
 
                             <div className = "moreImagesRow">
+                                <img src = {photo1Real} className = "projectImage" alt = "drawing"/>
+
+                                <img src = {photo1Drawing} className = "projectImage" alt = "drawing"/>
+
                                 <img src = {photo2Real} className = "projectImage" alt = "drawing"/>
 
                                 <img src = {photo2Drawing} className = "projectImage" alt = "drawing"/>
@@ -168,14 +180,12 @@ function AirCompressorModelling() {
                                 <img src = {photo3Real} className = "projectImage" alt = "drawing"/>
 
                                 <img src = {photo3Drawing} className = "projectImage" alt = "drawing"/>
-                            </div>
 
-                            <div className = "moreImagesRow">
                                 <img src = {photo4Real} className = "projectImage" alt = "drawing"/>
 
                                 <img src = {photo4Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
-
+                            
                             <div className = "moreImagesRow">
                                 <img src = {photo5Real} className = "projectImage" alt = "drawing"/>
 

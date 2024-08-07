@@ -73,13 +73,13 @@
 
 .moreImagesRow {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
 .projectImage {
     height: auto;
-    max-width: 20vw;
+    max-width: 15vw;
     width: 100%;
 }
 
