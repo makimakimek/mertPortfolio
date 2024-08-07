@@ -27,17 +27,18 @@ function App() {
             <div className = "imageContainer">
               <img src = {mertImage} className = "image" alt = "an image of Mert"/>
             </div>
+
             <div className = "resume">
               link to my Resume - 
               <a href = "https://www.google.com" target = "_blank" className = "link"> &#128196;</a>
             </div>
-          </div>
-        </div>
 
-        <div className = "goAndNoButtons">
-          <Link to = "Featured">
-            <button className = "goButton">Go!</button>
-          </Link>
+            <div className = "goAndNoButtons">
+              <Link to = "Featured">
+                <button className = "goButton">Go!</button>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </>

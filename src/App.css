@@ -38,6 +38,7 @@
   margin-left: 20px;
   margin-right: 20px;
   height: 70vh;
+  justify-content: center;
 }
 
 .paragraph {
@@ -75,11 +76,10 @@
   color: black;
   display: flex;
   gap: 42vw;
-  justify-content: center;
   margin-bottom: 20px;
 }
 
-.goButton, .noButton {
+.goButton {
   font-size: 24px;
   font-family: "Lab Mono", Icons;
   font-style: normal;
