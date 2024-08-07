@@ -83,7 +83,7 @@ function AirCompressorModelling() {
 
                         <div className = "mainPhoto">
                             <div className = "singleVideo">
-                                <video controls>
+                                <video controls muted>
                                     <source src = {video1} type = "video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
@@ -124,10 +124,6 @@ function AirCompressorModelling() {
 
                                         <div className = "infoSubText">
                                             Ahmet Mete Coşkun
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Emir Kaan Sonay 
                                         </div>
                                     </div>
                                 </div>
@@ -185,7 +181,7 @@ function AirCompressorModelling() {
 
                                 <img src = {photo4Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
-                            
+
                             <div className = "moreImagesRow">
                                 <img src = {photo5Real} className = "projectImage" alt = "drawing"/>
 
