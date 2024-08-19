@@ -71,10 +71,16 @@
     align-items: center;
 }
 
-.moreImagesRow {
+.moreImagesRowFor4 {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.moreImagesRowFor2 {
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 .projectImage {
