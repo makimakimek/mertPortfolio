@@ -54,7 +54,7 @@ function TwoArmRobotProject() {
                                         </div>
 
                                         <div className = "dropdownContent">
-                                            <a href = "https://www.linkedin.com/in/mert-ayhan-tando%C4%9Fdu-583266237/?locale=es_ES&trk=people-guest_people_search-card" className = "dropdownItem" target = "_blank">LinkedIn</a>
+                                            <a href = "https://www.linkedin.com/in/mert-ayhan-tando%C4%9Fdu-583266237/?locale=es_ES&trk=people-guest_people_search-card" className = "dropdownItemForAbout" target = "_blank">LinkedIn</a>
                                         </div>
                                     </div>
                                 </div>

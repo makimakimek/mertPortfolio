@@ -133,7 +133,7 @@
     cursor: pointer;
 }
 
-.menuItem:hover, .indexLink:hover, .nextLink:hover, .dropdownItem:hover {
+.menuItem:hover, .indexLink:hover, .nextLink:hover, .dropdownItem:hover, .dropdownItemForAbout:hover {
     transition: 0.2s;
     background-color: #fff564;
     color: rgb(110, 22, 110);
@@ -164,6 +164,13 @@
     border: 1px solid grey;
     color: black;
     width: 24.1vw;
+    padding: 5px;
+}
+
+.dropdownItemForAbout {
+    border: 1px solid grey;
+    color: black;
+    width: 10vw;
     padding: 5px;
 }
 
