@@ -37,7 +37,7 @@
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
-  height: 70vh;
+  height: 60vh;
   justify-content: center;
 }
 
@@ -53,7 +53,7 @@
 .imageAndResume {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 6vh;
 }
 
 .imageContainer {
@@ -70,13 +70,6 @@
   font-family: "Lab Mono", Icons;
   font-weight: 400;
   font-size: 4vh;
-}
-
-.goAndNoButtons {
-  color: black;
-  display: flex;
-  gap: 42vw;
-  margin-bottom: 20px;
 }
 
 .goButton {
