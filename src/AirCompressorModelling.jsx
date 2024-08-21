@@ -72,6 +72,12 @@ function AirCompressorModelling() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <a href = "https://www.google.com" className = "link" target = "_blank">
+                                    <div className = "menuItem">
+                                        resume
+                                    </div>
+                                </a>
                             </div> 
                         </div>
                     </div>
