@@ -172,13 +172,11 @@ function AirCompressorModelling() {
                                 <img src = {photo4Drawing} className = "projectImage" alt = "drawing"/>
                             </div>
 
-                            <div className = "moreImagesRowFor2">
+                            <div className = "moreImagesRowFor4">
                                 <img src = {photo1Real} className = "projectImage" alt = "drawing"/>
 
                                 <img src = {photo1Drawing} className = "projectImage" alt = "drawing"/>
-                            </div>
 
-                            <div className = "moreImagesRowFor2">
                                 <img src = {photo2Real} className = "projectImage" alt = "drawing"/>
 
                                 <img src = {photo2Drawing} className = "projectImage" alt = "drawing"/>
