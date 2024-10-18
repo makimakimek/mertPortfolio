@@ -8,6 +8,10 @@ import video4 from './assets/bridgeCable/G_video.gif';
 import photo1 from './assets/bridgeCable/A_Mesh.png';
 import photo2 from './assets/bridgeCable/B_Contacts.png';
 import photo3 from './assets/bridgeCable/C.png';
+import photo4 from './assets/bridgeCable/I.png';
+import video5 from './assets/bridgeCable/J.gif';
+import video6 from './assets/bridgeCable/K.gif';
+import video7 from './assets/bridgeCable/L.gif';
 
 function BridgeCable() {
     return (
@@ -146,6 +150,26 @@ function BridgeCable() {
                                 <img src = {photo2} className = "projectImageBridgeCable" alt = "drawing"/>
 
                                 <img src = {photo3} className = "projectImageBridgeCable" alt = "drawing"/>
+                            </div>
+                        </div>
+
+                        <div className = "moreText">
+                            First the parts were modeled in Siemens NX and then assembled together with constraints. Bolts and nuts are bonded 
+                            while all the other connections have frictional contact with friction coefficient of 0.2 between them. Under plate is 
+                            fixed from all four sides as fixed support.
+                        </div>
+
+                        <div className = "mainPhotoBridgeCable">
+                            <div className="gifRows">
+                                <img src = {photo4} className = "singularPhotoBridgeCable" alt = "a gif"/>
+
+                                <img src = {video5} className = "singularPhotoBridgeCable" alt = "a gif"/>
+                            </div>
+
+                            <div className="gifRows">
+                                <img src = {video6} className = "singularPhotoBridgeCable" alt = "a gif"/>
+
+                                <img src = {video7} className = "singularPhotoBridgeCable" alt = "a gif"/>
                             </div>
                         </div>
                     </div>

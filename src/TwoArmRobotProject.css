@@ -141,3 +141,11 @@
 .videosMainTitle, .projectReportTitle {
     font-size: 2vh;
 }
+
+.moreText {
+    font-family: "Lab Mono";
+    font-size: 1.7vh;
+    word-wrap: break-word;
+    width: 100%;
+    margin: 2rem 0rem;
+}
