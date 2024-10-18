@@ -1,6 +1,7 @@
 import './Featured.css'
 import { Link } from "react-router-dom";
 import projectImage from './assets/projectImage.jpg';
+import bridgeCableImage from './assets/bridgeCable/B_Contacts.png';
 
 function Featured() {
     return (
@@ -127,7 +128,7 @@ function Featured() {
                                 <Link to = "/BridgeCable">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {bridgeCableImage} className = "subImage" alt = "an image the structural analysis of a bridge cable project"/>
                                         </div>
 
                                         <div className = "projectTitle">
