@@ -188,11 +188,6 @@ function BridgeCable() {
                             </div>
                         </div>
 
-                        <div className = "moreText">
-                            In this part we both have bolt pre-adjustments of 0.05mm to all bolts and increased external force 
-                            applied to the bracket. We calculate working loads on the bolts and gap status and the gap created between the plates.
-                        </div>
-
                         <div className = "mainPhotoBridgeCable">
                             <div className="gifRows">
                                 <img src = {video8} className = "singularPhotoBridgeCable" alt = "a gif"/>
@@ -205,6 +200,11 @@ function BridgeCable() {
 
                                 <img src = {video10} className = "singularPhotoBridgeCable" alt = "a gif"/>
                             </div>
+                        </div>
+
+                        <div className = "moreText">
+                            In this part we both have bolt pre-adjustments of 0.05mm to all bolts and increased external force 
+                            applied to the bracket. We calculate working loads on the bolts and gap status and the gap created between the plates.
                         </div>
 
                         <div className="tableSection">
