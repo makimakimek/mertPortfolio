@@ -43,6 +43,15 @@
     height: auto;
 }
 
+.singularImageAndText {
+    width: 50%;
+}
+
+.singularPhotoWithText {
+    width: 100%;
+    height: auto;
+}
+
 .infoAndParagraph {
     display: flex;
     margin-top: 3vh;
@@ -84,6 +93,14 @@
     display: flex;
     flex-direction: column;
     gap: 5vh;
+    align-items: center;
+}
+
+.moreImagesWithText {
+    display: flex;
+    width: 100%;
+    margin: 3rem 0rem 0rem 0rem;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -147,5 +164,44 @@
     font-size: 1.7vh;
     word-wrap: break-word;
     width: 100%;
+    margin: 2rem 0rem 3rem 0rem;
+}
+
+.textSection {
+    font-family: "Lab Mono";
+    font-size: 1.7vh;
+    word-wrap: break-word;
     margin: 2rem 0rem;
+    width: 45%;
+}
+
+.tableTitle {
+    font-family: "Lab Mono";
+    font-size: 2vh;
+    margin-bottom: 1rem;
+}
+
+.tableSection {
+    margin: 2rem 0;
+    font-family: "Lab Mono";
+    font-size: 1.7vh;
+}
+
+.tableSection table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableSection th, .tableSection td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableSection th {
+    background-color: #f2f2f2;
+}
+
+.tableSection tr:nth-child(even) {
+    background-color: #f9f9f9;
 }

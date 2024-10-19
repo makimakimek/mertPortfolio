@@ -12,6 +12,11 @@ import photo4 from './assets/bridgeCable/I.png';
 import video5 from './assets/bridgeCable/J.gif';
 import video6 from './assets/bridgeCable/K.gif';
 import video7 from './assets/bridgeCable/L.gif';
+import photo5 from './assets/bridgeCable/M.png';
+import video8 from './assets/bridgeCable/N.gif';
+import video9 from './assets/bridgeCable/O.gif';
+import photo6 from './assets/bridgeCable/P_Gap.png';
+import video10 from './assets/bridgeCable/Q.gif';
 
 function BridgeCable() {
     return (
@@ -171,6 +176,75 @@ function BridgeCable() {
 
                                 <img src = {video7} className = "singularPhotoBridgeCable" alt = "a gif"/>
                             </div>
+                        </div>
+
+                        <div className = "moreImagesWithText">
+                            <div className = "singularImageAndText">
+                                <img src = {photo5} className = "singularPhotoWithText" alt = "a photo" />
+                            </div>
+
+                            <div className = "textSection">
+                                Four different bolt pretensions with adjustment of 0.1mm are assigned to the bolts.
+                            </div>
+                        </div>
+
+                        <div className = "moreText">
+                            In this part we both have bolt pre-adjustments of 0.05mm to all bolts and increased external force 
+                            applied to the bracket. We calculate working loads on the bolts and gap status and the gap created between the plates.
+                        </div>
+
+                        <div className = "mainPhotoBridgeCable">
+                            <div className="gifRows">
+                                <img src = {video8} className = "singularPhotoBridgeCable" alt = "a gif"/>
+
+                                <img src = {video9} className = "singularPhotoBridgeCable" alt = "a gif"/>
+                            </div>
+
+                            <div className="gifRows">
+                                <img src = {photo6} className = "singularPhotoBridgeCable" alt = "a gif"/>
+
+                                <img src = {video10} className = "singularPhotoBridgeCable" alt = "a gif"/>
+                            </div>
+                        </div>
+
+                        <div className="tableSection">
+                            <div className="tableTitle">Table 1. Working Load Maximum and Minimums on Bolts with varying Force Magnitudes</div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Force Z Component [kN]</th>
+                                        <th>Working Load Minimum [kN]</th>
+                                        <th>Working Load Maximum [kN]</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>100</td>
+                                        <td>29.56</td>
+                                        <td>29.82</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0.1</td>
+                                        <td>11.36</td>
+                                        <td>11.95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>200</td>
+                                        <td>56.63</td>
+                                        <td>56.92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50</td>
+                                        <td>16.75</td>
+                                        <td>17.26</td>
+                                    </tr>
+                                    <tr>
+                                        <td>150</td>
+                                        <td>43</td>
+                                        <td>43.26</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
