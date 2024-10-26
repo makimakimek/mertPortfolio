@@ -2,6 +2,8 @@ import './Featured.css'
 import { Link } from "react-router-dom";
 import projectImage from './assets/projectImage.jpg';
 import bridgeCableImage from './assets/bridgeCable/B_Contacts.png';
+import ballBalancerImage from './assets/ballBalancer/ballBalancerMainPhoto.png';
+import twoArmRobotImage from './assets/twoArmRobot/ArmPositionGraph.png';
 
 function Featured() {
     return (
@@ -90,7 +92,7 @@ function Featured() {
                                 <Link to = "/TwoArmRobotProject">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {twoArmRobotImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -116,7 +118,7 @@ function Featured() {
                                 <Link to = "/BallBalancer">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {ballBalancerImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">

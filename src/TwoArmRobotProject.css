@@ -18,7 +18,16 @@
 
 .mainPhoto {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+}
+
+.projectCollection {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 2vw;
+    margin-left: 25%;
 }
 
 .mainPhotoBridgeCable {
@@ -85,6 +94,12 @@
     width: 70%;
 }
 
+.projectParagraphAndLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
 .indexLink, .nextLink {
     margin-bottom: 20px;
 }
@@ -148,6 +163,14 @@
     flex-direction: column;
     justify-content: space-evenly;
     width: 70vw;
+    height: auto;
+}
+
+.twoArmRobotVideo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 53rem;
     height: auto;
 }
 

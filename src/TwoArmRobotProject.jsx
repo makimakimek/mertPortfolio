@@ -1,7 +1,7 @@
 import './TwoArmRobotProject.css';
 import './Featured.css';
 import { Link } from "react-router-dom";
-import mainProjectPhoto from './assets/placeholderProjectImage.jpg';
+import video1 from './assets/twoArmRobot/Two-Arm-Robot-Video.mp4';
 
 function TwoArmRobotProject() {
     return (
@@ -74,7 +74,14 @@ function TwoArmRobotProject() {
                         </div>
 
                         <div className = "mainPhoto">
-                            <img src = {mainProjectPhoto} className = "singularPhoto" alt = "an image of two arm robot project"/>
+                            <div className = "twoArmRobotVideo">
+                                <video controls muted autoPlay>
+                                    <source src = {video1} type = "video/mp4" />
+                                        Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            
+                            {/*<img src = {mainProjectPhoto} className = "singularPhoto" alt = "an image of two arm robot project"/>*/}
                         </div>
 
                         <div className = "infoAndParagraph">
@@ -91,18 +98,6 @@ function TwoArmRobotProject() {
                                     </div>
                                 </div>
 
-                                <div className = "collaborator">
-                                    <div className = "infoTitle">
-                                        Collaborator
-                                    </div>
-
-                                    <div className = "infoFullText">
-                                        <div className = "infoSubText">
-                                            done individually
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <div className = "supervisor">
                                     <div className = "infoTitle">
                                         Supervisor
@@ -110,33 +105,22 @@ function TwoArmRobotProject() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Prof. Ismail Lazoğlu
+                                            Prof. Dr. Murat Sözer
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div className = "projectParagraph">
-                                Controlled the input arm's angular position and speed with time, and solved the angular positions
-                                and speeds of the driven arms.
-                            </div>  
-                        </div>
 
-                        <div className = "moreImages">
-                            <div className = "projectText">
+                            <div className = "projectParagraphAndLinks">
+                                <div className = "projectParagraph">
+                                    Controlled the input arm&apos;s angular position and speed with time, and solved the angular positions
+                                    and speeds of the driven arms.
+                                </div>
 
-                            </div>
-
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectText">
-                                
+                                <div className = "projectLink">
+                                    <a href = "https://www.google.com" className = "nextLink">PowerPoint Presentation</a>
+                                    <a href = "https://www.google.com" className = "nextLink">MatLab Project Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
