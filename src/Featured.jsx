@@ -2,10 +2,11 @@ import { useState } from 'react';
 import './Featured.css'
 import { Link } from "react-router-dom";
 import projectImage from './assets/projectImage.jpg';
-import bridgeCableImage from './assets/bridgeCable/B_Contacts.png';
-import ballBalancerImage from './assets/ballBalancer/ballBalancerMainPhoto.png';
-import twoArmRobotImage from './assets/twoArmRobot/ArmPositionGraph.png';
+import bridgeCableImage from './assets/bridgeCable/bridgeCableMainPhoto.jpg';
+import ballBalancerImage from './assets/ballBalancer/ballBalancerMainPhoto.jpg';
+import twoArmRobotImage from './assets/twoArmRobot/ArmPositionGraph.jpg';
 import circleMenu from './assets/circleMenu.png';
+import airCompressorImage from './assets/airCompressor/airCompressorMainPhoto.jpg';
 
 function Featured() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -167,7 +168,7 @@ function Featured() {
                                 <Link to = "/AirCompressorModelling">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {airCompressorImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">

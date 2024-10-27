@@ -89,7 +89,7 @@ function AirCompressorModelling() {
 
                         <div className = "mainPhoto">
                             <div className = "singleVideo">
-                                <video controls muted>
+                                <video controls muted autoPlay>
                                     <source src = {video1} type = "video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
