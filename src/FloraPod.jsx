@@ -86,7 +86,7 @@ function FloraPod() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            MATLAB
+                                            
                                         </div>
 
                                     </div>
@@ -99,19 +99,19 @@ function FloraPod() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Ahmet Mete Coşkun
+                                            
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Emir Kaan Sonay
+                                            
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Erkin Püren
+                                            
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Hikmet Batuhan Balkı
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@ function FloraPod() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Prof. Ismail Lazoğlu
+                                            
                                         </div>
                                     </div>
                                 </div>

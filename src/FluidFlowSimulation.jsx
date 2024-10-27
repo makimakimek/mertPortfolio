@@ -86,11 +86,11 @@ function FluidFlowSimulation() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            MATLAB code
+                                            
                                         </div>
 
                                         <div className = "infoSubText">
-                                            design
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -102,11 +102,11 @@ function FluidFlowSimulation() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Mehmet
+                                            
                                         </div>
 
                                         <div className = "infoSubText">
-                                            Elif
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ function FluidFlowSimulation() {
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Prof. Ismail Lazoğlu
+                                            
                                         </div>
                                     </div>
                                 </div>

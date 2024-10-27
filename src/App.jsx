@@ -7,7 +7,7 @@ function App() {
     <>
       <div className = "page">
         <div className = "openingMessage">
-          Hi! I'm Mert.
+          Hi! I&apos;m Mert.
         </div>
         
         <div className = "paragraphAndImage">
