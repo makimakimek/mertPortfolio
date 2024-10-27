@@ -82,7 +82,7 @@ function AirCompressorModelling() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             3D MODELLING OF AN AIR COMPRESSOR
                         </div>

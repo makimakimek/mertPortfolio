@@ -22,7 +22,7 @@
     width: 100%;
 }
 
-.projectCollection {
+.projectCollectionInside {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -142,12 +142,6 @@
 .projectImageBridgeCable {
     width: 33%;
     height: auto;
-}
-
-.projectImage {
-    height: auto;
-    max-width: 15vw;
-    width: 100%;
 }
 
 .projectVideos {

@@ -68,7 +68,7 @@ function FloraPod() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             Climate Controlled Portable Greenhouse System
                         </div>

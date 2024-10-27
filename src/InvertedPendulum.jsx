@@ -68,7 +68,7 @@ function InvertedPendulum() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             INVERTED PENDULUM SYSTEM MODELLING
                         </div>

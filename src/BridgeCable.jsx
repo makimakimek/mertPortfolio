@@ -83,7 +83,7 @@ function BridgeCable() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             STRUCTURAL ANALYSIS OF A BRIDGE CABLE
                         </div>

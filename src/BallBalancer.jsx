@@ -74,7 +74,7 @@ function BallBalancer() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             BALL BALANCER CONTROL MODELLING
                         </div>

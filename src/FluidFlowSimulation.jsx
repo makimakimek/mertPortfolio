@@ -68,7 +68,7 @@ function FluidFlowSimulation() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             FLUID FLOW SIMULATION THROUGH AN EXPANDING PIPE
                         </div>

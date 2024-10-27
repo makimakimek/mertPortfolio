@@ -68,7 +68,7 @@ function TwoArmRobotProject() {
                         </div>
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             USING A TWO-ARM ROBOT SYSTEM TO WRITE INITIALS
                         </div>
