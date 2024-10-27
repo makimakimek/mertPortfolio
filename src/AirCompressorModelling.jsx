@@ -159,39 +159,39 @@ function AirCompressorModelling() {
 
                         <div className = "moreImages">
                             <div className = "moreImagesRowFor4">
-                                <img src = {photo6} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo6} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo7} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo7} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo8} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo8} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo9} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo9} className = "projectImageInside" alt = "drawing"/>
                             </div>
 
                             <div className = "moreImagesRowFor4">
-                                <img src = {photo3Real} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo3Real} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo3Drawing} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo3Drawing} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo4Real} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo4Real} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo4Drawing} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo4Drawing} className = "projectImageInside" alt = "drawing"/>
                             </div>
 
                             <div className = "moreImagesRowFor4">
-                                <img src = {photo1Real} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo1Real} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo1Drawing} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo1Drawing} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo2Real} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo2Real} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo2Drawing} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo2Drawing} className = "projectImageInside" alt = "drawing"/>
                             </div>
 
                             <div className = "moreImagesRowFor2">
-                                <img src = {photo5Real} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo5Real} className = "projectImageInside" alt = "drawing"/>
 
-                                <img src = {photo5Drawing} className = "projectImage" alt = "drawing"/>
+                                <img src = {photo5Drawing} className = "projectImageInside" alt = "drawing"/>
                             </div>
                         </div>
                     </div>

@@ -144,6 +144,12 @@
     height: auto;
 }
 
+.projectImageInside {
+    height: auto;
+    max-width: 15vw;
+    width: 100%;
+}
+
 .projectVideos {
     display: flex;
     flex-direction: column;

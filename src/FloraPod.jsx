@@ -141,11 +141,11 @@ function FloraPod() {
 
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "projectImageInside">
 
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "projectImageInside">
 
                             </div>
 

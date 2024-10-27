@@ -138,11 +138,11 @@ function InvertedPendulum() {
 
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "projectImageInside">
 
                             </div>
 
-                            <div className = "projectImage">
+                            <div className = "projectImageInside">
 
                             </div>
 
