@@ -194,7 +194,7 @@ function Featured() {
                     <img src = {circleMenu} />
                 </button>
 
-                <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>
+                <div className={"mobileNav " + (mobileNavOpen && 'active')}>
                     <NavigationContent />
                 </div>
 
