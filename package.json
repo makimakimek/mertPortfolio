@@ -22,14 +22,18 @@
       "/InvertedPendulum",
       "/FloraPod"
     ],
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
     "source": "dist"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-pdf-viewer": "^0.1.0",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "vite-plugin-ssr": "^0.4.142"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
